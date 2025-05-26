@@ -55,6 +55,15 @@ To create a Graph tile, you need to know the name of the metric to display. Metr
 The first tile shows the 5-minute load average of each host in the dashboard's scope.
 
 ### 1:  In the dashboard header, click the add tile control.
-
 ### 2:  In the AVAILABLE TILES palette, click the Graph tile icon.
+##### (a Foto)
+
+The TILE CONFIGURATION dialog replaces the dashboard editor window with the Graph tile configuration tabs and fields. (For more information about configuring a Graph tile, see the Graph tile reference page.)
+![image](https://github.com/user-attachments/assets/1a6f6dd0-253f-4e34-8da5-1f3b20077f34)
+### b: In the Aggregator field, select none.
+The dialog updates to show separate line graphs for each entity in scope. When you move your pointer over the over graph, a popup displays the entity and metric names and the data points.
+
+### c: From the list in the Label format field, select Entity name.
+Since this tile will only display one metric, including the metric name is unnecessary.
+
 
