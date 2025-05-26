@@ -23,3 +23,7 @@ The following example shows the result of this tutorial.
 When you select a Collection Zone, the page expands to display filtering options.
 
 ![image](https://github.com/user-attachments/assets/b781d40d-0648-494d-a9a9-07a952b8fb5a)
+Zenoss recommends using one or more filters in all Collection Zone scopes. In this example, we'll walk through adding an organizer filter.
+
+ ### a: Click the "Included in ANY of these Organizers field.
+![image](https://github.com/user-attachments/assets/5cf7a13a-f1a6-491b-8f37-8f23ef3f31a4)
