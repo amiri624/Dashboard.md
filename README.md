@@ -94,4 +94,88 @@ Entity and metric 	   cpu_ssCpuUsedPerCpu
 Aggregator 	          none
 Label format         	Entity name
 Legend position 	     right
-``
+```
+## Resize and arrange tiles
+
+Now, resize and move all the Graph tiles.
+
+   . The resize control appears in the bottom-right corner of the tile when you move your mouse anywhere over the tile.
+
+   . The move control appears when you hover over the header area of the tile.
+
+The following image shows a suggested arrangement of the tiles.
+![image](https://github.com/user-attachments/assets/c9d15e48-bffc-4243-8696-1ca55098fc4d)
+
+## Create a Metric Outliers tile
+
+This dashboard already includes line graphs of 5-minute load averages, but there's a tile that you can use to highlight entities with data points that exceed a threshold, the Metric Outliers tile.
+
+   1: In the dashboard header, click the add tile control.
+
+   2: On the AVAILABLE TILES palette, click the Metric Outliers icon. 
+   ![image](https://github.com/user-attachments/assets/2c67485f-0ce1-436a-b315-80ee9995e186)
+# 3: In the TILE CONFIGURATION dialog, configure the tile:
+### a:    In the Tile title field, replace Metric Outliers with Load Average.
+### b:    In the Metric field, enter upti, and then select uptime_laLoadInt5 from the list.
+### c:    In the Target Percent field, replace 50 with 1.
+This means that data points must satisfy the threshold criteria 1% of the dashboard's time range.
+### d:    Leave the Subtitle and Thresholds fields unchanged.
+### e:    In the Defined Range area, reduce the value from 7 to 3.
+### f:    Leave the Label format field unchanged.
+
+# 4: At the bottom, click SAVE.
+
+The Metric Outliers tile uses hexagons to represent entities and arranges entities in alphabetical order. Entities that exceed the specified thresholds show up in the color associated with the threshold.
+
+# Create events tiles
+
+Two tiles summarizing events round out the dashboard, one showing event totals and another identifying the entities that are producing the greatest numbers of events.
+## Create an Event List + Count tile
+
+The Event List + Count tile displays information about events reported against entities in the dashboard's scope in a doughnut chart, a table, or both. For this dashboard, you'll create a doughnut chart to show the count of critical and error events.
+
+### 1:    In the dashboard header, click the add tile control.
+
+### 2:    On the AVAILABLE TILES palette, click the Event List + Count icon.
+
+![image](https://github.com/user-attachments/assets/02b056ce-8347-47c0-9317-6b82de963e1a)
+
+
+
+# 3: In the TILE CONFIGURATION dialog, configure the tile:
+
+### a:    In the Tile title field, enter Production Events.
+
+### b:    In the Show area, click Table to deselect it.
+
+### c:    In the Filters field, click the 3 items list, and then click Warning to deselect it.
+Leave all the other options unchanged.
+
+# 4: Click SAVE.
+
+## Create a Top Event Producers tile
+
+The Top Event Producers tile displays the count of events and the names of the entities that have the greatest number of events reported against them.
+
+### 1:    In the dashboard header, click the add tile control.
+
+### 2:    On the AVAILABLE TILES palette, click the Top Event Producers icon.
+
+   ![image](https://github.com/user-attachments/assets/d3333f36-3dfc-4e20-bf7d-24566e30f590)
+
+
+
+# 3: In the TILE CONFIGURATION dialog, configure the tile:
+
+### a:    Leave the Tile title field unchanged.
+
+### b:    In the Filters field, click the 3 items list, and then click Warning to deselect it.
+
+### c:    Leave the Count and Types fields unchanged.
+
+### d:    In the Label format field, select Entity name.
+
+# 4: Click SAVE.
+
+
+#### Congratulations, you're done! Compare your dashboard with the example at the beginning of this tutorial, if you wish.
