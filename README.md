@@ -1,1 +1,1 @@
-# Dashboard.md
+# Dashboard
