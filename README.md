@@ -32,3 +32,29 @@ The field displays the organizers in your Collection Zone.
 
 ### b: Click the name of the organizer that contains the Linux hosts to include in this dashboard.
 ![image](https://github.com/user-attachments/assets/325cb51c-2660-4dea-95cf-d03801430e92)
+The list updates to display the names of the entities and folders included in the organizer.
+
+### c:Continue opening folders, if necessary, and then click the name of the organizer that contains the Linux hosts to include in this dashboard.
+### d: Collapse the list of organizers by clicking outside the Included in ANY of these Organizers field.
+![image](https://github.com/user-attachments/assets/ca90448a-f8f7-4654-8fea-10b91871ab3e)
+### e: Click the check mark icon, immediately below the ADD ENTITIES button.
+
+The filtering options collapse. This allows you to add multiple sources, if desired, and to customize filtering for each source.
+# 5: (Optional) To apply filters to the scope, click ADD FILTERS.
+![image](https://github.com/user-attachments/assets/324fd0e0-4877-4acd-be71-707c5a15bf25)
+### a: To define the clauses, click in the first field to select an entity field. This field offers suggestions based on the user-friendly names in the Dictionary or from live data in your system. The suggestions are in alphabetical order for quicker browsing.
+### b: Select your operator, then select your value. Start typing in the value field for autosuggestions based on your selected entity field.
+### c: To add another simple clause or add a compound clause, use the buttons in the top of your query. To remove a clause, click the X button next to the clause.
+### d: When finished, click SAVE FILTERS to apply your filter to the scope or click the trashcan icon to delete the filter.
+# 6: When finished defining your scope, click SAVE in the upper-right corner to return to Dashboards.
+![image](https://github.com/user-attachments/assets/a20739f4-598a-4187-93d6-4f4e83a8376e)
+#### Continue to the next section.
+## Create Graph tiles
+To create a Graph tile, you need to know the name of the metric to display. Metric names are often obscure, so this tutorial supplies the names. Otherwise, you can use the metric dictionary to find metric names. Just open the Smart View page of an entity that collects the metric you want to include in a tile, identify the metric, and then open the metric dictionary editor. This procedure is demonstrated in the Graph tile tutorial.
+#### Create a tile for the 5-minute load average
+The first tile shows the 5-minute load average of each host in the dashboard's scope.
+
+### 1:  In the dashboard header, click the add tile control.
+
+### 2:  In the AVAILABLE TILES palette, click the Graph tile icon.
+
