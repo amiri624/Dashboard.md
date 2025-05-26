@@ -60,10 +60,38 @@ The first tile shows the 5-minute load average of each host in the dashboard's s
 
 The TILE CONFIGURATION dialog replaces the dashboard editor window with the Graph tile configuration tabs and fields. (For more information about configuring a Graph tile, see the Graph tile reference page.)
 ![image](https://github.com/user-attachments/assets/1a6f6dd0-253f-4e34-8da5-1f3b20077f34)
+
+# 3: In the Tile title field, enter 5 Minute Load Average.
+
+# 4: In the Please select a metric area, specify the metric to display.
+In the Entity and metric field, enter upti, and then select uptime_laLoadInt5 from the list.
+
+### a: The dialog updates to highlight your selection, immediately below the Entity and metric field, and to display a graph. By default, the graph is a line graph that aggregates data points from all the entities in scope that collect the uptime_laLoadInt5 metric.
+
 ### b: In the Aggregator field, select none.
 The dialog updates to show separate line graphs for each entity in scope. When you move your pointer over the over graph, a popup displays the entity and metric names and the data points.
 
 ### c: From the list in the Label format field, select Entity name.
 Since this tile will only display one metric, including the metric name is unnecessary.
+# 5: 
 
+Add a legend to the tile.
 
+### a: Near the top-left of the dialog, click the CHART OPTIONS tab.
+
+### b: From the Legend position list, select right.
+The graph updates to include a legend of entity names. Each name is a link to the entity's Smart View page.
+
+# 6: In the upper-right corner of the dialog, click SAVE.
+New tiles are placed in the first available area, starting in the upper-left corner of the dashboard. Don't worry about the size or placement of the tile right now.
+# Create additional tiles
+Create additional Graph tiles as specified in the following tabs. You will resize and rearrange all the tiles in the next section.
+```bash
+CPU Utilization       Memory Utilization      Traffic In    Traffic Out
+
+Tile title 	          CPU Utilization
+Entity and metric 	   cpu_ssCpuUsedPerCpu
+Aggregator 	          none
+Label format         	Entity name
+Legend position 	     right
+``
