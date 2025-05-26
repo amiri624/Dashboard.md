@@ -25,5 +25,10 @@ When you select a Collection Zone, the page expands to display filtering options
 ![image](https://github.com/user-attachments/assets/b781d40d-0648-494d-a9a9-07a952b8fb5a)
 Zenoss recommends using one or more filters in all Collection Zone scopes. In this example, we'll walk through adding an organizer filter.
 
+The field displays the organizers in your Collection Zone.
  ### a: Click the "Included in ANY of these Organizers field.
 ![image](https://github.com/user-attachments/assets/5cf7a13a-f1a6-491b-8f37-8f23ef3f31a4)
+
+
+### b: Click the name of the organizer that contains the Linux hosts to include in this dashboard.
+![image](https://github.com/user-attachments/assets/325cb51c-2660-4dea-95cf-d03801430e92)
