@@ -114,7 +114,8 @@ This dashboard already includes line graphs of 5-minute load averages, but there
    1: In the dashboard header, click the add tile control.
 
    2: On the AVAILABLE TILES palette, click the Metric Outliers icon. 
-   ![image](https://github.com/user-attachments/assets/2c67485f-0ce1-436a-b315-80ee9995e186)
+  
+![image](https://github.com/user-attachments/assets/2c67485f-0ce1-436a-b315-80ee9995e186)
 # 3: In the TILE CONFIGURATION dialog, configure the tile:
 ### a:    In the Tile title field, replace Metric Outliers with Load Average.
 ### b:    In the Metric field, enter upti, and then select uptime_laLoadInt5 from the list.
