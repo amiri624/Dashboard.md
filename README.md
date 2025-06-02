@@ -25,7 +25,6 @@
 
 
 
-
 # Create a dashboard for Linux hosts in an organizer
 
 This tutorial shows how to create a dashboard dedicated to the Linux hosts found in a Collection Zone organizer. If you have not already created any organizers, use the procedures on this page to create at least one, and then come back.
