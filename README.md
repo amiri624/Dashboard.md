@@ -6,7 +6,6 @@ In this tutorial, all the hosts are virtual machines running on the same vSphere
 
 The following example shows the result of this tutorial.
 
-
 ![image](https://github.com/user-attachments/assets/54e34f01-00e1-40d9-a946-ffb7323ba2b8)
 
 # Define the dashboard name and scope
