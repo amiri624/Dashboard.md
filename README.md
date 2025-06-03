@@ -163,7 +163,6 @@ The Top Event Producers tile displays the count of events and the names of the e
    ![image](https://github.com/user-attachments/assets/d3333f36-3dfc-4e20-bf7d-24566e30f590)
 
 
-
 # 3: In the TILE CONFIGURATION dialog, configure the tile:
 
 ### a:    Leave the Tile title field unchanged.
