@@ -141,7 +141,6 @@ The Event List + Count tile displays information about events reported against e
 ![image](https://github.com/user-attachments/assets/02b056ce-8347-47c0-9317-6b82de963e1a)
 
 
-
 # 3: In the TILE CONFIGURATION dialog, configure the tile:
 
 ### a:    In the Tile title field, enter Production Events.
