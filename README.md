@@ -12,9 +12,8 @@ The following example shows the result of this tutorial.
 ### a: If you don't own any dashboards yet, an empty page opens. Click CREATE A NEW DASHBOARD.
 ### b: If you do own one or more dashboards, the first dashboard in your list opens.
 ### c: Click the dashboards menu button, and then click NEW DASHBOARD. The Define Dashboard Scope page opens.
-```bash
+
 ![image](https://github.com/user-attachments/assets/e956df49-1c15-42eb-b478-15d0c5bf094e)
-``
 # 2: In the name field (upper-left), replace My Dashboard with a descriptive name. This tutorial uses SE Demo Systems. Use a name that works for you.
 # 3: Click ADD ENTITIES.
 ![image](https://github.com/user-attachments/assets/1487ccc9-7352-4613-8393-301297848145)
