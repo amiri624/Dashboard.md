@@ -16,6 +16,7 @@ The following example shows the result of this tutorial.
 # 2: In the name field (upper-left), replace My Dashboard with a descriptive name. This tutorial uses SE Demo Systems. Use a name that works for you.
 # 3: Click ADD ENTITIES.
 ![image](https://github.com/user-attachments/assets/1487ccc9-7352-4613-8393-301297848145)
+
 # 4: In the Add Source area, click the name of a Collection Zone that includes an organizer. Most customers have just one Collection Zone. Here, the Collection Zone name is Cz0.
 
 When you select a Collection Zone, the page expands to display filtering options.
